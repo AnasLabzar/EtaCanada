@@ -8,9 +8,9 @@ import StepSection from '../components/Section/StepSection';
 
 function HomeUser() {
   return (
-    <div className='w-full h-screen'>
-      <div id='bodyBlog' className='bodyBlog z-0'>
-        <div className='md:container md:mx-auto relative d-flex justify-center'>
+    <div className='w-full h-screen bg-white'>
+      <div id='bodyBlog' className='bodyBlog z-0 bg-white'>
+        <div className='md:conainer md:mx-auto relative d-flex justify-center'>
           <Header />
         </div>
         <Main />

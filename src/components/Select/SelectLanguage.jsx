@@ -7,16 +7,12 @@ const SelectLanguage = () => {
 
   return (
     <>
-      <div class="form-control w-full max-w-xs">
-        <label class="label">
-          <span class="label-text">Pick the best fantasy franchise</span>
-          <span class="label-text-alt">Alt label</span>
-        </label>
-        <select class="select select-bordered">
-          <option disabled  selected>Your Nationality :</option>
+      <div class="form-control w-full max-w-full ">
+        <select class="select !rounded-sm select-bordered mt-4 bg-gray-300 text-gray-800">
+          <option disabled  selected className="!text-black">Your Nationality :</option>
           {CountryLists.map(( data, key ) => (
-            <option key={key}>
-              {data.name},
+            <option key={key} className="!text-black !rounded-sm font-medium opacity-70">
+              {data.name}
             </option>
           ))}
         </select>

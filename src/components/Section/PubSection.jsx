@@ -3,7 +3,7 @@ import icon from '../../assets/Icons/iconCanada.png'
 
 function PubSection() {
     return (
-        <div className='md:container md:mx-auto w-full mb-10 h-[20vh] relative top-[60vh]'>
+        <div className='md:container md:mx-auto w-full text-black mb-10 mt-[36em]'>
             <div className="headerTitle flex  flex-col mx-auto mt-14">
                 <img className='w-14 h-14 flex mb-4 self-center' src={icon} alt="" />
                 <h1 className='text-2xl text-center font-medium mb-12 ml-6 mt-2'>

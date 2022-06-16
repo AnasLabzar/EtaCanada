@@ -14,8 +14,6 @@ const FakeHeader = () => {
                     className="w-[24%]"
                     src={logoWhite}
                 />
-                
-                <Button variant="contained" id='button' onClick={ContactPage} className='!bg-[#EC1922]'>Sign Up Now</Button>
             </div>
         </nav>
     );

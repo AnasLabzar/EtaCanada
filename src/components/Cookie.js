@@ -13,7 +13,7 @@ const ModalValidat = () => {
         useEffect(() => {
             setInterval(() => {
                 setshowModal(true);
-            }, 3000);
+            }, 1500);
         }, [1])
 
         if (showModal === true) {

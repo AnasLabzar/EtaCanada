@@ -6,10 +6,10 @@ import FakeStepSection from '../components/Section/FakeStepSection';
 
 function HomeBut() {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full h-screen overflow-hidden bg-white-400'>
       <Cookie />
       <div id='bodyBlog' className='bodyBlog z-0'>
-        <div className='md:container md:mx-auto relative d-flex justify-center'>
+        <div className='md:container md:mx-auto z-10 relative d-flex justify-center'>
           <FakeHeader />
         </div>
         <FakeMain />
